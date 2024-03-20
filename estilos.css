@@ -1,0 +1,29 @@
+body{
+    background-color:aliceblue;
+}
+p{
+    text-align:center;
+    font-style:normal;
+}
+#hidden{
+    max-width: 992px;
+
+}
+
+    @media(min-width:992px){
+        #hidden{
+            display:none;
+            background-color: brown;
+        }
+    }
+    #hidden1{
+        min-width: none;
+    }
+    
+    @media(min-width:992px){
+        #hidden1{
+            display: none;
+            background-color: rgb(15, 34, 204);
+
+        }
+    }
