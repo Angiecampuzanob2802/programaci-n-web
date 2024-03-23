@@ -5,25 +5,128 @@ p{
     text-align:center;
     font-style:normal;
 }
+
+.bordes{
+    padding: 10px 25px;
+}
+
+.derecha{
+    margin-top: 30px;
+}
+
+.instagram{
+    font-family: Lobster Two, sans-serif; 
+    font-size: 30px; 
+    padding: 20px 20px;
+    margin-bottom: 15px;
+}
+
+.iconos{
+    margin-left:5px;
+    font-size:20px;
+}
+
+.h6{
+    font-weight:bold;
+}
+
+.datos{
+    font-size:small; 
+    color: grey;
+    margin-right: 100px;
+}
+
+.imagen{
+    font-size:20px;
+    font-weight:bold;
+    margin-right: 10px;
+}
+
+.paisaje{
+    margin-left: 140px;
+}
+
+.hidden1{
+    padding: 0 5px;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+.nav-options{
+    list-style: none;
+    width: 1500px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.rounded-circle{
+    height: 65px;
+    margin-right: 30px;
+}
+
+.nombres{
+    font-size: small;
+}
+
+.perfil{
+    height: 40px;
+    width: 40px; 
+    margin-left: 160px;
+}
+
+.perfiles{
+    height: 40px;
+    width: 40px; 
+    margin-right: 160px;
+    margin-top: 10px;
+}
+
+.busqueda{
+    font-size: small;
+    margin-left: -70px;
+}
+
+.informacion{
+    font-size:small;
+    color: blue;
+    margin-top:5px;
+}
+
+.todo{
+    cursor:pointer;
+    font-size:small;
+    font-weight:bold;
+}
+
+.sugerencias{
+    color:rgb(67, 65, 65);
+}
+
+.final{
+    font-size: small;
+    color:darkgray;
+    padding: 30px 0;
+}
+
 #hidden{
     max-width: 992px;
 
 }
 
-    @media(min-width:992px){
-        #hidden{
-            display:none;
-            background-color: brown;
-        }
+@media(min-width:992px){
+    #hidden{
+        display:none;
+       
     }
-    #hidden1{
-        min-width: none;
-    }
-    
-    @media(min-width:992px){
-        #hidden1{
-            display: none;
-            background-color: rgb(15, 34, 204);
+}
+.hidden1{
+    min-width: none;
+}
 
-        }
+@media(min-width:992px){
+    .hidden1{
+        display: none;
+
     }
+}
